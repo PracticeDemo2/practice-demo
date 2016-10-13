@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+*{margin:0; padding:0;}
+
+body{font-family:Verdana, Geneva, sans-serif; font-size:12px; -webkit-text-size-adjust: none;}
+
+html,body{ overflow-x:hidden;}
+
+li,ol{list-style:none;}
+
+a{text-decoration:none; cursor:pointer;}
+
+a img{border:0px;}
+
+a:hover{border:none;}
+
+.clear{clear:both;}
+
+h1, h2, h3, h4, h5, h6, p, span,em,small{font-weight:normal; font-style:normal;}
+
+h1, h2, h3, h4, h5, h6,small{font-size:12px;}
+
+i{font-style:normal;}
+
+*html .clearfix {height: 1%;}
+
+*+html .clearfix{height:1%;}
+
+.clearfix:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
+
+.clearfix {display:inline-block;}
+
+.clearfix {display:block;}
+
+
+dl.joinus{
+    color:#505050;
+    font-family:"微软雅黑";
+    height: 400px;
+    width: 524px;
+    margin-left: 48px;
+    float: left;
+}
+dl.joinus dt{
+    font-size: 18px;
+    display:none;
+    line-height: 35px;
+    font-weight: bold;
+    color: #505050;
+    font-family: "微软雅黑";
+}
+dl.joinus dd li{
+    line-height: 30px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCC;
+    list-style-position: inside;
+    list-style-type: decimal;
+}
+
+.jus{width:1200px; margin:0 auto;}
+
+h5.yellow{
+    color: #000;
+    font-size: 12px;
+    clear: both;
+    margin-bottom: 50px;
+    line-height:24px;
+}
+
+.service{
+    width:1400px;
+    margin-top:-40px;
+
+}
+
+.service ul li{
+    float:left;
+    padding-right:3px;
+}
+
+.service ul li a{
+    width:238px;
+    height:312px;
+    display:block;
+    background:url(../images/bg83.gif) no-repeat;
+    color:#989898;
+}
+
+.service ul li a:hover{
+    background-position:0 -312px;
+    color:#FFF;}
+
+.service ul li a div{
+    padding:14px 0 0 13px;
+}
+
+.service ul li a span {
+    font-family:"微软雅黑";
+    font-size:12.99px;
+    display:block;
+    line-height:20px;
+    padding:20px 0 0 18px;
+}
+
+.service ul li a i{
+    display:block;
+    font-size:5.49px;
+    padding:0 0 0 18px;
+    font-family:"微软雅黑";
+    text-transform:uppercase;
+}
+
+.service ul li a b{
+    display:block;
+    padding:10px 0 0 18px;
+    font-size:18.88px;
+    text-transform:uppercase;
+}
+
+.service ul li a b em{
+    font-weight:bold;
+    color:#dcdcdc;
+}
+
+.service ul li a:hover b,.service ul li a:hover em{
+    color:#64380f;
+}
+
+.service{
+    overflow:hidden;
+    padding:20px 0;
+    /*margin-left:-30px;*/
+}
+
+.service ul {
+    width:1400px;
+}
+
+.begin{
+    background: url("../images/20140826100746_PGZza.jpeg");
+}
+
+.sxy{
+    margin-top:-100px;
+    margin-left:70px;
+}

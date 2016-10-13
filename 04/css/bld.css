@@ -1,0 +1,139 @@
+/* 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "ËÎÌå";
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+// 页面开始
+
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+    color: #666;
+    background: #fff;
+}
+
+.bld-bigImg {
+    margin: 0 auto;
+    width: 1143px;
+    height: 480px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bld-bigImg ul {
+    position: absolute;
+    width: 3000px;
+}
+
+.bld-bigImg li {
+    float: left;
+}
+
+/*.bld-bigImg li.currentShow {
+    display: block;
+}*/
+
+.bld-smallImg {
+    margin: 0 auto;
+    width: 1143px;
+    height: 117px;
+}
+
+.bld-smallImg .leftArrow, .bld-smallImg .rightArrow {
+    width: 30px;
+    height: 117px;
+    background-color: #CCC7C4;
+    color: white;
+    float: left;
+    position: relative;
+}
+
+.bld-smallImg .leftArrow:hover, .bld-smallImg .rightArrow:hover {
+    cursor: pointer;
+}
+
+.bld-smallImg .rightArrow {
+    margin-left: 15px;
+}
+
+.bld-smallImg .leftArrow span, .bld-smallImg .rightArrow span {
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+}
+
+.centerImg {
+    width: 1048px;
+    height: 117px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+}
+
+.bld-smallImg .wrap {
+    overflow: hidden;
+}
+
+.centerImg ul li img {
+    width: 252px;
+    height: 117px;
+}
+
+.centerImg ul {
+    width: 2860px;
+    position: absolute;
+    float: left;
+}
+
+.centerImg ul li {
+    border-width: 252px;
+    margin-right: 12px;
+    float: left;
+
+}
+
+.centerImg ul li img.currentBorder {
+    border-width: 252px;
+    border: 5px solid red;
+}

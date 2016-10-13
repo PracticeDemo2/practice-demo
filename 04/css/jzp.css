@@ -1,0 +1,26 @@
+#imgList {
+    list-style: none;
+    margin-left: 90px;
+}
+
+#imgList li {
+    margin-bottom: -18px;
+    float: left;
+    margin-left: 2px;
+    position: relative;
+}
+
+.opa-class {
+    position: absolute;
+    background-color: white;
+    opacity: 0.4;
+    width: 295px;
+    height: 214px;
+    left: 0;
+    top: 0;
+}
+
+#imgList li image {
+    width: 295px;
+    height: 214px;
+}

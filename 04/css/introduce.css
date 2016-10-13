@@ -1,0 +1,32 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.introduce {
+    width: 1000px;
+    height: 630px;
+    margin: 0px auto;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.introduce h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.introduce p{
+    padding: 5px;
+}
+
+.introduce img {
+    float: left;
+    vertical-align: middle;
+    margin-right: 30px ;
+
+}
+.introduce .content{
+    display: none;
+}
+

@@ -1,0 +1,11 @@
+/*样式*/
+.main{width:1000px;margin:100px auto 0 auto;overflow:hidden;}
+.main ul{height: 600px; position: relative;}
+.main ul li{width:220px;height:338px;position:absolute;left: 400px;top: 100px;overflow: hidden;}
+.main ul li .photo{width:220px;height:338px;overflow:hidden;}
+.main ul li .photo img{width: 220px;}
+.main .rsp{width:220px;height:338px;overflow:hidden;position: absolute;background:#000;top:0px;left:0px;}
+.main .text{position:absolute;width:220px;height:338px;left:-220px;top:0px;overflow:hidden;}
+.main .text h3{width:220px;margin-top:100px;height:50px;line-height:50px;text-align:center;color:#FFFFFF;font-size:20px;}
+.main .text a{text-decoration:none}
+.main .text div{text-align:center;color:#FFFFFF;font-size:18px;}
