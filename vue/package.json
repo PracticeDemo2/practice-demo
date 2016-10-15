@@ -1,0 +1,15 @@
+{
+  "name": "vue-demo",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iceStone <ice@micua.com> (http://blog.wedn.net/)",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^1.0.26",
+    "vue-router": "^0.7.13"
+  }
+}
